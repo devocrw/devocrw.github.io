@@ -1,0 +1,224 @@
+/*********** Zone responsive ecrans mobile ************/
+
+
+@media (min-device-width: 400px) and (max-device-width: 768px) /* SMARTPHONES */ {
+
+
+  /********** PARAMETRES GENERAUX **********/
+
+  h2 {
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  h3 {
+    font-size: 16px;
+}
+
+  /********** HEADER **********/
+
+.containerheader {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+.containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+.nav-links {
+    margin-right: 0;
+}
+
+  /********** HEADER MENU **********/
+
+.inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.nav-links ul {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.containerheader ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+}
+
+.containerheader ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+}
+
+
+.loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* FILTRES */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }  
+
+
+
+
+
+/********************* LES HEBERGEMENTS A MARSEILLE ********************/
+
+
+    
+        
+/********** PARAMETRES HEBERGEMENTS **********/
+
+
+.mainheberg {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.containerheberg {
+  flex: 100%;
+  
+}
+
+/*.hebergement {
+  height: 100vh;
+  background-color: white;
+  order: 2;
+  margin: 0%;
+  padding: 0.
+  
+}*/
+    
+
+
+
+
+
+
+ 
+/********** PARAMETRES LES PLUS POPULAIRES **********/
+
+
+.populaire {
+ flex: 100%;
+ margin-bottom: 10px
+}
+    
+
+.populaire_text h3, .populaire_text p {
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+/********** PARAMATRES LES ACTIVITES**********/
+
+.activite{
+        width: 100%;
+    }
+    .title_activite{
+        padding-left: 20px;
+    }
+    .activitie_boites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .activite_boites_design img{
+        height: 35vw;
+    }
+    .activite {
+        width: 95%;
+        margin-bottom: 20px;       
+    }
+    .activite_boites_design{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .activite_boites_design{
+        margin-bottom: 20px;
+    }
+    .activite_boites_design{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .activite_image_NDGarde{
+        width: 95%;
+    }
+    .activite_boites_design{
+        margin-bottom: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********FOOTER**********/
+
+
+.footer-container {
+
+display: block;
+
+}
+
+.footer-menu {
+ width: 100%;
+ padding: 0.5em 1em;
+}
