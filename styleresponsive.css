@@ -122,15 +122,7 @@
   
 }
 
-/*.hebergement {
-  height: 100vh;
-  background-color: white;
-  order: 2;
-  margin: 0%;
-  padding: 0.
-  
-}*/
-    
+
 
 
 
@@ -162,9 +154,6 @@
 
 /********** PARAMATRES LES ACTIVITES**********/
 
-.activite{
-        width: 100%;
-    }
     .title_activite{
         padding-left: 20px;
     }
@@ -173,29 +162,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .activite_boites_design img{
-        height: 35vw;
-    }
-    .activite {
-        width: 95%;
-        margin-bottom: 20px;       
-    }
-    .activite_boites_design{
-        width: 95%;
-        margin-bottom: 20px;
-    }
-    .activite_boites_design{
-        margin-bottom: 20px;
-    }
-    .activite_boites_design{
-        width: 95%;
-        margin-bottom: 20px;
-    }
-    .activite_image_NDGarde{
-        width: 95%;
-    }
-    .activite_boites_design{
-        margin-bottom: 20px;
+   
 
 
 
