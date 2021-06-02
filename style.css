@@ -1,5 +1,5 @@
 body {font-family: 'Raleway', sans-serif;
-    /*display: flex;*/
+  /*margin: 0;*/   
 }	
 
 
@@ -21,25 +21,23 @@ p {
 
 #blocpage {
   margin: auto;
-  width: 80%;
-
+  width: 76%;
 }
+
+#Reservia{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+     display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 30px 0px 0px;
+}
+
 
  
-#Reservia{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-/******** Container ********/
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
 
 
@@ -72,12 +70,14 @@ p {
 
 .nav-links ul li a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 21px;
+  padding-top: 27px;
   color: #0065fc;
+
 }
 
 .nav-links ul li {
   margin-left: 28px;
+  
 }
 
 
@@ -95,7 +95,7 @@ a {
 
 .inscrire a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 21px;
+  padding-top: 27px;
 }
 
 .inscrire {
@@ -216,9 +216,9 @@ button {
   cursor: pointer;
 }
 
-.fas {
+/*.fas {
   color: #0065fc;
-}
+}*/
 
 .fa-map-marker-alt {
   color: black;
@@ -256,7 +256,9 @@ button {
     justify-content: space-between;
     margin: 25px 0 50px;
 }
+ img  { object-fit: cover;
 
+}
 .heberg-sousboite {
     margin: 10px; 
     padding: 0px; 
@@ -264,7 +266,9 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 25px
+    border-radius: 25px;
+    padding: 6px;
+    max-width: 410px;
 }
 
 .hebergement_texte {
@@ -282,23 +286,30 @@ button {
 .containerheberg  {
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 62%;
-    padding: 35px;
-    margin: 0 35px 0 0;
+    /*width: 55%;*/
+    max-width: 850px;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    
+    
+ justify-content: space-evenly;
+ 
 
 }
     
  .hebergement_boites {
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
     flex-wrap: wrap;
+    max-width: 950px;
+    
+    
 }
 
-.heberg-sousboite {
-  flex: 
+/*.heberg-sousboite {
   margin: 5px 10px 10px 5px; 
-  padding: 6px;
-}
+  
+}*/
    
 .hebergement_boites img {
 
@@ -317,17 +328,30 @@ button {
    display: flex;
    background-color: #f2f2f2;
    border-radius: 15px;
-   width: 32%;
-   padding: 28px;
-   margin: 0 50px 0 0;
-   
- 
-}   
+   /*width: 25%;*/
+   padding: 5px;
+   /*margin: 0 40px 0 0;*/
+}
 
-.populaire_boite_design img {
-    border-radius: 30px;
-    box-shadow: 0 5px 16px #0000002e;
-    cursor: pointer
+.titre-fleche {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}    
+
+.fa-chart-line {
+color: black;
+}
+
+.populaire_boite_design img {     
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 20px;
+
     
 }
 
@@ -341,7 +365,7 @@ button {
 .populaire_boites {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 .populaire_boites article {
@@ -385,7 +409,6 @@ button {
 
 .activite img {
     background-color: #ffffff;
-    /*margin:25px;*/
     padding: 0px;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
@@ -399,7 +422,9 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-between;
 }
+
 
 .activite_boite_contenu {
     flex: 18%;
@@ -412,17 +437,14 @@ button {
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 6px;
-    width: 40%,
-
+    width: 100%;
+   
 }
 
 .activite_boites_design h3 {
   padding-left: 15px;
 }
 
-/*.activite_text h3, .activite_text p {
-   
-}*/
 
 .activite_boites_colonne {
 
@@ -435,9 +457,7 @@ button {
 }
 
 .activite_image {
-        background-image: url('./images/VieuxPort');
-	/*background-repeat: no-repeat;*/
-        
+  background-image: url('./images/VieuxPort');      
 	border-radius: 25px;
 }
 
@@ -454,24 +474,21 @@ button {
 .activite_image_pomegues {
   height: 250px;
   width: 100%;
-  background-image: url('./images/Pomegues.jpg');
-        
+  background-image: url('./images/Pomegues.jpg');     
   border-radius: 25px 25px 0 0;
   background-size: cover;
   background-position: center;
 }
 
 
-.activite_image_NDGarde {
-  height: 330px;
+.activite_image_frioul {
+  height: 250px;
   width: 100%;
-  background-image: url('./images/NDGarde.jpg');
-        
+  background-image: url('./images/Frioul.jpg');        
   border-radius: 25px 25px 0 0;
   background-size: cover;
   background-position: center;
 }
-
 
 
 .activite_image_calanque {
@@ -483,21 +500,20 @@ button {
   background-position: center;
 }
 
-.activite_image_frioul {
-  height: 250px;
+.activite_image_NDGarde {
+  height: 330px;
   width: 100%;
-  background-image: url('./images/Frioul.jpg');
-        
+  background-image: url('./images/NDGarde.jpg');        
   border-radius: 25px 25px 0 0;
   background-size: cover;
   background-position: center;
 }
 
+
 .activite_image_longchamp {
 	height: 350px;
   width: 100%;
-	background-image: url('./images/Longchamp.jpg');
-        
+	background-image: url('./images/Longchamp.jpg');        
 	border-radius: 25px 25px 0 0;
   background-size: cover;
   background-position: center;
@@ -531,20 +547,6 @@ button {
 .footer-menu a {
     color: #404040;
     text-decoration: none;
-   
-
-.footer-menu a:hover {
-    color: #000;
-    text-decoration: none;
-    background-size: 5em 100%;
 }
-
-
-
-
-
-
-
-
-
+   
 

@@ -1,7 +1,7 @@
 /*********** Zone responsive ecrans mobile ************/
 
 
-@media (min-device-width: 400px) and (max-device-width: 1435px) {
+@media (min-device-width: 300px) and (max-device-width: 1435px) {
 
 
   /********** PARAMETRES GENERAUX **********/
@@ -16,6 +16,13 @@
     font-size: 16px;
 }
 
+
+
+#blocpage {
+  margin: auto;
+  width: 100%;
+
+ } 
   /********** HEADER **********/
 
 .containerheader {
@@ -29,9 +36,7 @@
     padding-top: 5px;
   }
 
-.nav-links {
-    margin-right: 0;
-}
+
 
   /********** HEADER MENU **********/
 
@@ -41,27 +46,31 @@
     right: 30px;
 }
 
+
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-right: 0;
+}
+
+.nav-links {
+    
     width: 100%;
     margin-top: 2px;
 }
 
 .nav-links ul {
     border-bottom: 2px solid #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.containerheader ul li {
-    margin-left: 0;
-    padding: 10px 46px 5px 11px;
-}
+.nav-links ul li a:hover {
+  border-bottom: 2px solid #0065fc;
+  padding-top: 0px;
+  color: #0065fc;
+  border-top: 0px;
 
-.containerheader ul li a:hover {
-    border-bottom: 2px solid #0065fc;
-    border-top: none;
-    padding-bottom: 5px;
 }
 
 
@@ -82,15 +91,19 @@
   /* FILTRES */
 
   .filtres {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+
   }
+
 
   .titrefiltres {
     margin-bottom: 10px;
+    flex: 100%;
   }
 
   .barreFiltre {
-    width: 50%;
+   /* flex: 50%;*/
     margin-bottom: 10px;
   }
 
@@ -115,7 +128,7 @@
 .mainheberg {
   display: flex;
   flex-direction: column-reverse;
-  margin: 25px 0 50px;
+  /*margin: 25px 0 50px;*/
 }
 
 .containerheberg {
@@ -125,17 +138,23 @@
 .containerheberg  {
     
    
-    padding: 35px;
-    margin: 0 35px 0 0;
+    /*padding: 35px;
+    margin: 0 35px 0 0;*/
 }
 
 .heberg-sousboite {
-    margin: 10px; 
-    padding: 0px; 
+    /*margin: 10px; 
+    padding: 0px;*/ 
+    flex: 100%;
+
    
 }
 
 
+.hebergement_boites img{
+    width: 100%;
+
+}
 
 
 
@@ -153,6 +172,11 @@
     margin: 2px;
 }
 
+ .populaire_text {
+    
+    margin: 30px;
+
+}
 
 
 
@@ -162,7 +186,8 @@
 
 
 
-/********** PARAMATRES LES ACTIVITES**********/
+
+/********** PARAMETRES LES ACTIVITES**********/
 
 
 .activite {
@@ -187,8 +212,37 @@
 
 
 
+.activite_image_port {
+  height: 150px;
+  
+}
+
+.activite_image_pomegues {
+  height: 150px;
+}
 
 
+.activite_image_frioul {
+  height: 150px;
+
+}  
+
+.activite_image_calanque {
+  height: 150px;
+  
+}
+
+
+.activite_image_NDGarde {
+  height: 150px;
+  
+}
+
+
+.activite_image_longchamp {
+  height: 150px;
+  
+}
 
 
 
