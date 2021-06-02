@@ -19,6 +19,8 @@ p {
 /******* Header *******/
 
 
+
+
 #blocpage {
   margin: auto;
   width: 76%;
@@ -28,11 +30,12 @@ p {
     /*display: flex;
     justify-content: space-between;
     align-items: center;*/
-     display: flex;
+  display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	padding: 5px 30px 0px 0px;
+  
 }
 
 
@@ -45,7 +48,11 @@ p {
 
 
 .Logohaut {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:4px 4px 10px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  font-size: 15px
+
 
 }
 
@@ -53,6 +60,14 @@ p {
   align-items: end;
 
 }
+
+.logo :hover, :focus {
+  
+
+  color: #E5E5FF;
+}
+
+
 
 .nav-links {
   display: flex;
@@ -257,8 +272,10 @@ button {
     margin: 25px 0 50px;
 }
  img  { object-fit: cover;
-
+        box-shadow:10px 10px 25px 6px rgba(0, 0, 0, 0.2);
+        cursor: pointer
 }
+
 .heberg-sousboite {
     margin: 10px; 
     padding: 0px; 
@@ -292,7 +309,7 @@ button {
     margin: 0 10px 0 0;
     
     
- justify-content: space-evenly;
+ /*justify-content: space-evenly;*/
  
 
 }
@@ -311,13 +328,10 @@ button {
   
 }*/
    
-.hebergement_boites img {
 
-    box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer
-    
+.Gainsboro  {
+    color: #f2f2f2;
 }
-
 
 
 
@@ -342,16 +356,16 @@ button {
 
 }    
 
-.fa-chart-line {
+/*.fa-chart-line {
 color: black;
-}
+}*/
 
 .populaire_boite_design img {     
     display: flex;
     flex-direction: row;
     background-color: white;
     margin: 20px;
-
+   
     
 }
 
@@ -412,7 +426,7 @@ color: black;
     padding: 0px;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer
+    cursor: pointer;
    
 }
 
@@ -519,7 +533,11 @@ color: black;
   background-position: center;
 }
 
-
+ /*img  { object-fit: cover;
+        box-shadow:10px 10px 25px 6px rgba(0, 0, 0, 0.2);
+        cursor: pointer
+url: images; 
+}*/
 
 /********* Footer *********/
 
