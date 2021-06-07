@@ -54,6 +54,7 @@ p {
   font-size: 15px
 
 
+
 }
 
 .logo {
@@ -71,7 +72,7 @@ p {
 
 .nav-links {
   display: flex;
-  margin-right: 3%;
+  /*margin-right: 3%;*/
 }
 
 .nav-links ul {
@@ -285,7 +286,7 @@ button {
     background-color: white;
     border-radius: 25px;
     padding: 6px;
-    max-width: 410px;
+   flex: 25%;
 }
 
 .hebergement_texte {
@@ -298,6 +299,7 @@ button {
 
 .hebergement_boites img {
  	border-radius: 15px 15px 0 0;
+  width: 100%;
 } 
 
 .containerheberg  {
@@ -356,19 +358,18 @@ button {
 
 }    
 
-/*.fa-chart-line {
+.fa-chart-line {
 color: black;
-}*/
+}
 
 .populaire_boite_design img {     
     display: flex;
     flex-direction: row;
     background-color: white;
     margin: 20px;
-   
-    
+   flex: auto;
+   /* width: 100%;*/
 }
-
 
 .etoilespop img{
   margin: 30px;
@@ -415,7 +416,7 @@ color: black;
 .populaire_boite_design img {
     border-radius: 15px 0 0 15px;
     padding: 0px;
-    margin:  5px;
+    margin:  auto;
     
 }
 
@@ -443,22 +444,30 @@ color: black;
 .activite_boite_contenu {
     flex: 18%;
     margin:5px;
-    
+    /*margin right: auto; 
+    margin left: auto;*/
 }  
 
 .activite_boites_design {
   background-color: white;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 6px;
+    margin-bottom: 20px;
     width: 100%;
+    cursor: pointer;
+    
    
 }
 
 .activite_boites_design h3 {
   padding-left: 15px;
+  margin: auto;
 }
 
+.activite-text {
+padding: 1%;
+
+}
 
 .activite_boites_colonne {
 
@@ -466,17 +475,20 @@ color: black;
     flex: 18%;
     flex-direction: column;
     flex-wrap: wrap;
-    margin:5px;
+    /*margin:5px;*/
+    margin-inline: 20px;
+    padding-block: 10px;
+    width: 100%;
    
 }
 
 .activite_image {
   background-image: url('./images/VieuxPort');      
 	border-radius: 25px;
-}
+} 
 
 .activite_image_port {
-  height: 662px;
+  height: 500px;
   background-image: url('./images/VieuxPort.jpg');
   width: 100%;
   border-radius: 25px 25px 0 0;
@@ -486,7 +498,7 @@ color: black;
 
 
 .activite_image_pomegues {
-  height: 250px;
+  height: 150px;
   width: 100%;
   background-image: url('./images/Pomegues.jpg');     
   border-radius: 25px 25px 0 0;
@@ -496,7 +508,7 @@ color: black;
 
 
 .activite_image_frioul {
-  height: 250px;
+  height: 150px;
   width: 100%;
   background-image: url('./images/Frioul.jpg');        
   border-radius: 25px 25px 0 0;
@@ -506,7 +518,7 @@ color: black;
 
 
 .activite_image_calanque {
-  height: 665px;
+  height: 500px;
   background-image: url('./images/Calanques.jpg');
   width: 100%;
   border-radius: 25px 25px 0 0;
@@ -515,7 +527,7 @@ color: black;
 }
 
 .activite_image_NDGarde {
-  height: 330px;
+  height: 300px;
   width: 100%;
   background-image: url('./images/NDGarde.jpg');        
   border-radius: 25px 25px 0 0;
@@ -525,7 +537,7 @@ color: black;
 
 
 .activite_image_longchamp {
-	height: 350px;
+	height: 300px;
   width: 100%;
 	background-image: url('./images/Longchamp.jpg');        
 	border-radius: 25px 25px 0 0;
@@ -533,12 +545,7 @@ color: black;
   background-position: center;
 }
 
- /*img  { object-fit: cover;
-        box-shadow:10px 10px 25px 6px rgba(0, 0, 0, 0.2);
-        cursor: pointer
-url: images; 
-}*/
-
+ 
 /********* Footer *********/
 
 .footer {
@@ -551,7 +558,7 @@ url: images;
     max-width: 100%;
     width: 1500px;
     margin: auto;
-    padding: 0 2em;
+    /*padding: 0 2em;*/
 }
 
 .footer-menu {
@@ -566,5 +573,3 @@ url: images;
     color: #404040;
     text-decoration: none;
 }
-   
-
