@@ -26,7 +26,7 @@ margin: -1px;
 
 #blocpage {
   margin: 0;
-  width: 100%;*
+  width: 100%;
 
  } 
   /********** HEADER **********/
@@ -108,8 +108,7 @@ margin: -1px;
     flex: 100%;
   }
 
-  .barreFiltre {
-   /* flex: 50%;*/
+  .barreFiltre {   
     margin-bottom: 10px;
   }
 
@@ -141,19 +140,14 @@ margin: -1px;
   flex: 100%;
   margin: auto;
   
-}
-.containerheberg  {
+}  
     
-   
-    /*padding: 35px;
-    margin: 0 35px 0 0;*/
-}
+
 
 .heberg-sousboite {
     /*margin: 10px; 
     padding: 0px;*/ 
     flex: 100%;
-
    
 }
 
@@ -178,26 +172,6 @@ margin: -1px;
 .populaire_text h3, .populaire_text p {
     margin: 2px;
 }
-
-
-.populaire_boites {
-
-
-}
-
-
- .populaire_text {
-    
-    /*margin: 30px;*/
-
-}
-
-
-
-
-
-
-
 
 
 
@@ -304,12 +278,7 @@ padding: 0px;
 
   margin: auto;
 }
-
-.inscrire {
-   /* position: ABSOLUTE;*/
-    top: 29px;
-    right: 30px;
 }
 
 
-}
+
