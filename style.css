@@ -455,7 +455,8 @@ color: black;
     flex-direction: column;
     flex-wrap: wrap;
     /*margin:10px;*/
-    margin-inline: 20px;    
+    margin-left: 20px; 
+    margin-right:20px;   
     width: 100%;
    
 }

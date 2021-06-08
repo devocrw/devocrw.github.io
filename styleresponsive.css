@@ -1,7 +1,7 @@
 /*********** Zone responsive ecrans mobile ************/
 
 
-@media (min-device-width: 300px) and (max-device-width: 1435px) {
+@media screen and (min-width: 300px) and (max-width: 1435px) {
 
 
 
@@ -266,7 +266,7 @@ padding: 0px;
 }
 }
 
-@media (min-device-width: 750px) and (max-device-width: 1435px){
+@media screen and (min-width: 750px) and (max-width: 1435px){
 
 .lespluspop{
 
