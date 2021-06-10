@@ -1,164 +1,198 @@
 /*********** Zone responsive ecrans mobile ************/
 
 @media screen and (min-width: 280px) and (max-width: 1435px) {
+
     /********** PARAMETRES GENERAUX **********/
     h2 {
-        font-size: 20px;
+        font-size  : 20px;
         font-weight: bold;
     }
+
     h3 {
         font-size: 16px;
     }
+
     body {
-        margin: 5px;
-        width: 100%;
-        margin: -1px;
+        width : 100%;
+        margin: auto;
     }
+
     #blocpage {
-        margin: 0;
-        width: 100%;
+        margin: auto;
+        width : 99.2%;
     }
+
     /********** HEADER **********/
     .containerheader {
-        margin: 0;
-        width: 100%;
+        margin      : 0;
+        width       : 100%;
         padding-left: 5px;
     }
+
     .containerheader {
-        display: grid;
+        display    : grid;
         padding-top: 5px;
     }
+
     /********** HEADER MENU **********/
     .inscrire {
         position: ABSOLUTE;
-        top: 29px;
-        right: 30px;
+        top     : 29px;
+        right   : 30px;
     }
+
     .nav-links {
         margin-right: 0;
     }
+
     .nav-links {
-        width: 100%;
+        width     : 100%;
         margin-top: 2px;
     }
+
     .nav-links ul {
-        border-bottom: 2px solid #f2f2f2;
-        width: 100%;
-        display: flex;
+        border-bottom  : 2px solid #f2f2f2;
+        width          : 100%;
+        display        : flex;
         justify-content: space-around;
-        align-items: center;
+        align-items    : center;
     }
+
     .nav-links ul li a:hover {
         border-bottom: 2px solid #0065fc;
-        padding-top: 0px;
-        color: #0065fc;
-        border-top: 0px;
+        padding-top  : 0px;
+        color        : #0065fc;
+        border-top   : 0px;
     }
+
     .loupelogo i {
-        display: inline;
-        color: white;
+        display         : inline;
+        color           : white;
         background-color: #0065fc;
-        padding: 18px;
-        border-radius: 18px;
-        position: relative;
-        right: 52px;
+        padding         : 18px;
+        border-radius   : 18px;
+        position        : relative;
+        right           : 52px;
     }
+
     .boutonderecherche {
         display: none;
     }
+
     /* FILTRES */
     .filtres {
-        display: flex;
+        display  : flex;
         flex-wrap: wrap;
     }
+
     .titrefiltres {
         margin-bottom: 10px;
-        flex: 100%;
+        flex         : 100%;
     }
+
     .barreFiltre {
         margin-bottom: 10px;
     }
+
     .fam {
         position: absolute;
-        margin: 34px 0 0 55%;
-        width: 35%;
+        margin  : 34px 0 0 55%;
+        width   : 35%;
     }
+
     /********************* LES HEBERGEMENTS A MARSEILLE ********************/
     /********** PARAMETRES HEBERGEMENTS **********/
     .mainheberg {
-        display: flex;
+        display       : flex;
         flex-direction: column-reverse;
-        /*margin: 25px 0 50px;*/
+
     }
+
     .containerheberg {
-        flex: 100%;
+        flex  : 100%;
         margin: auto;
     }
+
     .heberg-sousboite {
-        /*margin: 10px; 
-    padding: 0px;*/
         flex: 100%;
+
     }
+
     .hebergement_boites img {
         width: 100%;
     }
+
     /********** PARAMETRES LES PLUS POPULAIRES **********/
     .populaire {
-        flex: 100%;
+        flex         : 100%;
         margin-bottom: 10px
     }
+
     .populaire_text h3,
     .populaire_text p {
         margin: 2px;
     }
+
     /********** PARAMETRES LES ACTIVITES**********/
     .activite {
-        display: flex;
+        display       : flex;
         flex-direction: column;
     }
+
     .activite_boites_colonne {
         margin: auto;
     }
+
     .activite {
         align-items: center;
-        width: 98%;
-        margin: 0px;
+        width      : 98%;
+        margin     : 0px;
     }
+
     .activite img {
         flex-direction: column;
     }
+
     .activite_boites {
-        display: flex;
+        display       : flex;
         flex-direction: column;
-        width: 100%;
+        width         : 100%;
     }
+
     .activite_image_port {
         height: 150px;
     }
+
     .activite_image_pomegues {
         height: 150px;
     }
+
     .activite_image_frioul {
         height: 150px;
     }
+
     .activite_image_calanque {
         height: 150px;
     }
+
     .activite_image_NDGarde {
         height: 150px;
     }
+
     .activite_image_longchamp {
         height: 150px;
     }
+
     /***********FOOTER**********/
     .footer-container {
         display: block;
         padding: 0px;
     }
+
     .footer-menu {
-        width: auto;
+        width    : auto;
         /*padding: 0.5em 1em;*/
-        padding: 20px;
+        padding  : 20px;
     }
 }
 
@@ -166,7 +200,13 @@
     .lespluspop {
         width: 100%;
     }
-    .activite_boites_colonne {
+
+    /*.activite_boites_colonne {
         margin: auto;
+    }*/
+
+    .activite {
+
+        margin: 2px;
     }
 }
