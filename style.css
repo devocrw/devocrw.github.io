@@ -206,11 +206,14 @@ button {
     color: black;
 }
 
-
+.fa-info{
+    margin: 10px;
+}
 /******** la ligne information ********/
 
 .info {
     display: flex;
+    margin: 20px 5px 10px 5px;
 }
 
 .fa-info {
@@ -225,7 +228,7 @@ button {
 }
 
 .infotext {
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 
 
