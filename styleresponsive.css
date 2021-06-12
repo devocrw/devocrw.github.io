@@ -1,6 +1,6 @@
 /*********** Zone responsive ecrans mobile ************/
 
-@media screen and (min-width: 280px) and (max-width: 1435px) {
+@media screen and (min-width: 300px) and (max-width: 1435px) {
 
     /********** PARAMETRES GENERAUX **********/
     h2 {
@@ -133,6 +133,16 @@
         margin: 2px;
     }
 
+    .populaire_text {
+        flex: 40%;
+    }
+
+    .populaire_boite {
+        justify-content: space-evenly;
+        width          : 100%;
+
+    }
+
     /********** PARAMETRES LES ACTIVITES**********/
     .activite {
         display       : flex;
@@ -190,20 +200,27 @@
     }
 
     .footer-menu {
-        width    : auto;
-        /*padding: 0.5em 1em;*/
-        padding  : 20px;
+        width  : auto;
+        padding: 20px;
     }
 }
+
+
+
 
 @media screen and (min-width: 750px) and (max-width: 1435px) {
     .lespluspop {
         width: 100%;
     }
 
-    /*.activite_boites_colonne {
-        margin: auto;
-    }*/
+    .populaire_text {
+        flex: 60%
+    }
+
+    .populaire_boites {
+        justify-content: space-evenly;
+        width          : 100%;
+    }
 
     .activite {
 
