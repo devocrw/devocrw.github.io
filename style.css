@@ -121,18 +121,6 @@ input {
     color: black;
 }
 
-button {
-    background-color: #0065fc;
-    border          : none;
-    padding         : 15px 15px;
-    border-radius   : 0px 10px 10px 0px;
-    font-weight     : bold;
-    font-family     : "Raleway", "Sans serif";
-    font-size       : 1em;
-    cursor          : pointer;
-    margin          : 0 -50px;
-}
-
 .iconemap {
     font-size       : 20px;
     background-color: #f2f2f2;
@@ -233,9 +221,6 @@ button {
     box-sizing   : border-box;
 }
 
-.infotext {
-    /*padding-left: 10px;*/
-}
 
 
 /******** Les Hebergements ********/
