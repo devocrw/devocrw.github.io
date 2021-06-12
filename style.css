@@ -418,9 +418,8 @@ img {
 }
 
 .activite_boites_design h3 {
-    /*padding-left: 15px;*/
     padding: 15px 0 15px 25px;
-    margin      : auto;
+    margin : auto;
 }
 
 .activite_boites_colonne {
